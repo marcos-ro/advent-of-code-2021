@@ -7,6 +7,7 @@
 lazy val root = (project in file("."))
   .settings (
     name         := "Advent of Code 2021",
+    version      := "1.0.0",
     scalaVersion := "3.1.0",
     organization := "com.github.marcosro.aoc21",
     libraryDependencies ++= Seq(
