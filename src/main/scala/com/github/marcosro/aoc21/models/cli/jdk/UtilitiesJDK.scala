@@ -1,8 +1,8 @@
-package com.github.marcosro.aoc21.models.cli.linux
+package com.github.marcosro.aoc21.models.cli.jdk
 
 import scala.io.AnsiColor
 
-private object BannerLinux:
+private object UtilitiesJDK:
   private val aoc21 = f"""${AnsiColor.BOLD}${AnsiColor.YELLOW}
  ______     _____     __   __   ______     __   __     ______      ______     ______      ______     ______     _____     ______    
  /\  __ \   /\  __-.  /\ \ / /  /\  ___\   /\ "-.\ \   /\__  _\    /\  __ \   /\  ___\    /\  ___\   /\  __ \   /\  __-.  /\  ___\   
@@ -12,5 +12,5 @@ private object BannerLinux:
                                                                                                                                         
   ${AnsiColor.RESET}"""
 
-  def show: Unit =
+  def banner: Unit =
     println(aoc21)

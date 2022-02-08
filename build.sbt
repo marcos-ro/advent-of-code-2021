@@ -8,5 +8,8 @@ lazy val root = (project in file("."))
   .settings (
     name         := "Advent of Code 2021",
     scalaVersion := "3.1.0",
-    organization := "com.github.marcosro.aoc21"
+    organization := "com.github.marcosro.aoc21",
+    libraryDependencies ++= Seq(
+      "org.scalatest" %% "scalatest-funsuite" % "3.2.10" % "test"
+    )
   )
