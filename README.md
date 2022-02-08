@@ -2,7 +2,7 @@
 
 # About
 
-My solutions for advent of code 2020 problems 🎅
+My solutions for advent of code 2021 problems 🎅
 
 ## Requirements
 
