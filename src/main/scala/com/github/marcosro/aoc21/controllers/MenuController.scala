@@ -10,6 +10,7 @@ class MenuController(problemController: ProblemController):
   private def processing: Boolean =
     val program = prompt("menu").replaceAll("0", "") match
       case "1" => resolve("1")
+      case "2" => resolve("2")
       case otherwise => default(otherwise)
 
     MenuServices.interpreter.run(program)
